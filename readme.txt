@@ -1,18 +1,7 @@
- const axios = require('axios').default;
+For starting the server:
 
+0) Open the terminal
 
+1) run "npm run dev"
 
- axios.get('https://api.easybroker.com/v1/properties?page=1&limit=20', {
-    headers: {
-      'X-Authorization': `Bearer ${APIKEY}`
-    }
-  })
-  .then((res) => {
-    console.log(res.data)
-  })
-  .catch((error) => {
-    console.error(error)
-  })
-
-
-hjg8afdth1k4e2mmq0vulhveerlq1e
+2) You will see the properties in the terminal
